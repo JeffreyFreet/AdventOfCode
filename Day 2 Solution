@@ -9,9 +9,8 @@ namespace Day2
         {
             string[] input = (System.IO.File.ReadAllText(@"C:\Users\jeffrey.freet\Desktop\Advent of Code\Day 2\Day2\Input.txt").Split(','));
 
-            input[1] = "12";
-            input[2] = "2";
-
+            input[1] = "41";
+            input[2] = "12";
 
             for (int i = 0; i < input.Length; i += 4)
             {
@@ -28,7 +27,7 @@ namespace Day2
 
                 if (operation == 2)
                     Multiply(input, pos1, pos2, pos3);
-                    
+
             }
 
             Console.WriteLine(input[0]);
